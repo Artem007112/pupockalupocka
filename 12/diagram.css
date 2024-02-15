@@ -1,0 +1,40 @@
+
+p{
+    display: block;
+    min-height: 5%;
+    margin: 20px 0;
+}
+#emptydia{
+display: block;
+background-color: rgb(196, 196, 196);
+box-shadow: inset 0 0 5px;
+height: 300px;
+width: 20px;
+margin: 20px 0;
+}
+#loadia-css{
+display: block;
+
+background-color: #ad0000;
+box-shadow: inset 0 0 10px white;
+height: 10%;
+width: 20px;
+}
+#loadia-html{
+    display: block;
+
+    background-color: #ad0000;
+    box-shadow: inset 0 0 10px white;
+    height: 20%;
+    width: 20px;
+    
+}
+#loadia-js{
+    display: block;
+
+    background-color: #ad0000;
+    box-shadow: inset 0 0 10px white;
+    height: 3%;
+    width: 20px;
+        
+}

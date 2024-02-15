@@ -1,0 +1,139 @@
+p{
+    font-family:sans-serif;
+
+}
+#infrodiv {
+    display: inline-table;
+    width: 70%;
+    margin: 10px 10px 10px 50px
+}
+#karta{
+    display: inline-table;
+    width: 80%;
+    margin: 10px 10px 10px 50px
+}
+body{
+margin: 0;
+}
+span{
+text-decoration: none;
+}
+
+span:hover{
+background: linear-gradient();
+}
+
+header{
+position: relative;
+min-height: 100px;
+width: 100%;
+background-color:white ;
+z-index: 1;
+}
+
+header img{
+margin: 15px 5px 5px 15px;
+height: 70px;
+width: 60px;
+} 
+header div p{
+margin: 17px 120px 17px 20px;
+float: right;
+max-width: 350px;
+font-size: 14pt;
+} 
+#cart{
+    float: left;
+    display: block;
+    height: 500px;
+    width: 590px;
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+    box-shadow: 0 5px 10px #00000061;
+}
+#cart video{
+height: 50%;
+width: 90%;
+margin: 5%;
+background-color:#84150f;
+}
+
+nav{
+margin: 0;
+position: relative;
+min-height: 70px;
+width: 100%;
+background:linear-gradient(180deg,#fcdc00,orange) ;
+z-index: 1;
+box-shadow: 0 10px 10px #00000061;
+} 
+
+aside{
+display: block;
+float: left;
+min-width: 10%;
+min-height: 1685px;
+background-color: #db2017;
+box-shadow: 0 0 10px;
+}
+aside img{
+display: block;
+background-color: beige;
+width:150px;
+height: 50px;
+margin: 25px;
+}
+main{
+display: inline-table;
+float: left;
+width: 99%;
+margin: 0 0.5%;
+height: 900px;
+box-shadow: 0 0 10px;
+}
+
+aside li{
+display: table;
+text-align: left;
+width: 100%;
+}
+aside a{
+text-decoration: none;
+color: azure;
+font-size: 18px;
+font-weight: bold;
+font-family:sans-serif;
+text-shadow: 0 1px 6px black;
+}
+ul{
+padding: 10px 30px;
+margin: 5px 0;
+transition: all 0.2s;
+}
+a:hover>ul{
+transition: all 0.2s;
+background-color: #84150f;
+}
+
+footer{
+background-color: darkgray;
+width: 99%;
+margin: 0 0.5%;
+display: inline-block;
+height: 190px;
+}
+
+ul:hover>p{
+    display: block;
+}
+#Istordiv{
+    display: inline-table;
+    width: 70%;
+    margin: 10px 10px 10px 50px
+}
+
+
+
+
+ul> a:after {content: '+'}
+ul> a:only-child:after {content:'';}  
