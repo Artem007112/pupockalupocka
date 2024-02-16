@@ -1,0 +1,5 @@
+User-agent: Yandex
+Host: pupochkalupochka.netlify.app
+Disallow: /css
+Disallow: /js
+Disallow: /images
